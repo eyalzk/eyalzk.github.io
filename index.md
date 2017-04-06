@@ -4,7 +4,7 @@
 Here I will showcase some of my deep learning projects that I implement for fun\studies\work.
 Most projects are using Tensorflow (Python) or MATLAB.
 
-**More projects will be added soon :sunglasses:**
+**More projects will be added soon :)**
 
 
 # Style Transfer
