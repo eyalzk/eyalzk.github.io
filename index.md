@@ -1,9 +1,10 @@
 # My Deep Learning Repository
 
+
 Here I will showcase some of my deep learning projects that I implement for fun\studies\work.
 Most projects are using Tensorflow (Python) or MATLAB.
 
-**More projects will be added soon :)**
+**More projects will be added soon :sunglasses:**
 
 
 # Style Transfer - [repo](https://github.com/eyalzk/style_transfer)
@@ -17,7 +18,7 @@ The style transfer algorithm enables to render artistic images which combine the
 <img src="images/style_tf.png" height="250"> 
 
 
-### Contact
+### Contact:
 
 E-mail:eyalzk@gmail.com
 
