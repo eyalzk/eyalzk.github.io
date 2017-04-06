@@ -7,7 +7,7 @@ Most projects are using Tensorflow (Python) or MATLAB.
 **More projects will be added soon :)**
 
 
-<br><br>
+<br>
 
 # Style Transfer
 
@@ -22,7 +22,7 @@ The style transfer algorithm enables to render artistic images which combine the
 
 ### Contact:
 
-* E-mail:eyalzk@gmail.com
+* E-mail: eyalzk@gmail.com
 
 * [LinkedIn](https://il.linkedin.com/in/eyal-zakkay-323142aa )
 
