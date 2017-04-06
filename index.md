@@ -1,37 +1,24 @@
-## Welcome to GitHub Pages
+## My Deep Learning Repository
 
-You can use the [editor on GitHub](https://github.com/eyalzk/eyalzk.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Here I will showcase some of my deep learning projects that I implement for fun\studies\work.
+Most projects are using Tensorflow (Python) or MATLAB.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+** More projects will be added soon :) **
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Style Transfer
+*Tensorflow - Python*
+[repo](https://github.com/eyalzk/style_transfer)
 
-```markdown
-Syntax highlighted code block
+This is a basic Tensorflow implementation of the papar ["A Neural Algorithm of Artistic Style"](https://arxiv.org/abs/1508.06576).
+The style transfer algorithm enables to render artistic images which combine the content of a selected image with a style of a different image.
 
-# Header 1
-## Header 2
-### Header 3
+<img src="images/style-tf.png" height="250"> 
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+### Contact
 
-**Bold** and _Italic_ and `Code` text
+E-mail:eyalzk@gmail.com
 
-[Link](url) and ![Image](src)
-```
+[LinkedIn](https://il.linkedin.com/in/eyal-zakkay-323142aa )
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/eyalzk/eyalzk.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
