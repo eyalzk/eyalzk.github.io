@@ -7,9 +7,9 @@ Most projects are using Tensorflow (Python) or MATLAB.
 **More projects will be added soon :sunglasses:**
 
 
-# Style Transfer - [repo](https://github.com/eyalzk/style_transfer)
+# Style Transfer
 
-*Tensorflow - Python*
+*Tensorflow - Python*,  [link to repository](https://github.com/eyalzk/style_transfer)
 
 
 This is a basic Tensorflow implementation of the papar ["A Neural Algorithm of Artistic Style"](https://arxiv.org/abs/1508.06576).
@@ -20,7 +20,7 @@ The style transfer algorithm enables to render artistic images which combine the
 
 ### Contact:
 
-E-mail:eyalzk@gmail.com
+*E-mail:eyalzk@gmail.com
 
-[LinkedIn](https://il.linkedin.com/in/eyal-zakkay-323142aa )
+*[LinkedIn](https://il.linkedin.com/in/eyal-zakkay-323142aa )
 
