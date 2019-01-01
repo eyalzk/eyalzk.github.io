@@ -15,12 +15,25 @@ layout: default
 <div class="wrapper">
 <ul class="post-list">
   {% for post in paginator.posts %}
+
+
   <li>
+
     <h2>
+      {% if post.url_overide %}
+      <a class="post-link" href="{{ post.url_overide }}">{{ post.title }}</a>
+      {% else %}
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      {% endif %}
     </h2>
     <section class="post-excerpt" itemprop="description">
-      <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+      <span style="float:left;width: 20%;">
+        <img src="{{ post.img }}" class="post_img" width="10" height: 1em;>
+      </span>
+      <span style="float:right;width: 80%;">
+         <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+      </span>
+
     </section>
     <section class="post-meta">
       <div class="post-date">{{ post.date | date: "%B %-d, %Y" }}</div>

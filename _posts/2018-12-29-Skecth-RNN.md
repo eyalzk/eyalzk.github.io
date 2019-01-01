@@ -6,6 +6,9 @@ author: Eyal Zakkay
 categories:
 <!-- tags:	jekyll welcome -->
 cover:  "/assets/sketch/cat_interp.svg"
+git_url: "https://github.com/eyalzk/sketch_rnn_keras"
+url_overide: false
+img: "/assets/sketch/guitar1.gif"
 ---
 
 
@@ -96,13 +99,21 @@ The full list of configurable parameters:
 
 
 ### Using a trained model to draw
-<a href="/assets/sketch/cat_interp.svg" data-lightbox="Interpulation between two cats" data-title="Interpulation between two cats">
-  <img src="/assets/sketch/cat_interp.svg" title="Interpulation between two cats">
+<a href="/assets/sketch/cat_interp.svg" data-lightbox="Interpolation between two cats" data-title="Interpolation between two cats">
+  <img src="/assets/sketch/cat_interp.svg" title="Interpolation between two cats">
 </a>
 <!-- ![cat_interp](/assets/sketch/cat_interp.svg) -->
 
 In the notebook `Skecth_RNN_Keras.ipynb` you can supply a path to a trained model and a dataset and explore what the model has learned.
-There are examples of encoding and decoding of sketches, interpulating in latent space, sampling under different `temperature` values etc.
+There are examples of encoding and decoding of sketches, interpolating in latent space, sampling under different `temperature` values etc.  
+You can also load models trained on multiple data-sets and generate nifty interpolations such as these guitar-cats!
+<a href="/assets/sketch/interp3.svg" data-lightbox="Interpolation between a cat and a guitar" data-title="Interpolation between a cat and a guitar">
+  <img src="/assets/sketch/interp3.svg" title="Interpolation between a cat and a guitar">
+</a>
+<a href="/assets/sketch/interp5.svg" data-lightbox="Interpolation between a cat and a guitar" data-title="Interpolation between a cat and a guitar">
+  <img src="/assets/sketch/interp5.svg" title="Interpolation between a cat and a guitar">
+</a>
+<!-- ![guitar_cat_interp](examples/interp3.svg) -->
 
 #### References
   - The guitar animation was created using [this tutorial](https://colab.research.google.com/github/zaidalyafeai/Notebooks/blob/master/Strokes_QuickDraw.ipynb)

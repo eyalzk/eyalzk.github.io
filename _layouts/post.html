@@ -28,7 +28,11 @@ layout: default
   {% endfor %}{% endif %}
   </div>
 </section>
-
+{% if page.git_url %}
+<section class="git_url">
+  <p class="git_url text"><strong> <a href="{{ page.git_url }}"><font size="5">Open In GitHub</font></a></strong></p>
+</section>
+{% endif %}
 <article class="post-content">
   {{ content }}
 </article>
@@ -41,9 +45,11 @@ layout: default
 {% endif %}
 {% endif %}
 
-<section class="rss">
-  <p class="rss-subscribe text"><strong>Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></strong></p>
+{% if page.git_url %}
+<section class="git_url">
+  <p class="git_url text"><strong> <a href="{{ page.git_url }}">Open In GitHub</a></strong></p>
 </section>
+{% endif %}
 
 <section class="share">
   <span>Share: </span>

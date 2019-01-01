@@ -77,12 +77,12 @@ social:
     desc: Follow me on Twitter
     share: true
 
-  # - name: Facebook
-    # icon: facebook
-    # username: thebencentra
-    # url:
-    # desc: Friend me on Facebook
-    # share: true
+  - name: Facebook
+    icon: facebook
+    username:
+    url:
+    desc:
+    share: true
 
   - name: GitHub
     icon: github
@@ -119,12 +119,12 @@ social:
   #   desc: Follow me on Instagram
   #   share: false
 
-  - name: Pinterest
-    icon: pinterest
-    username:
-    url:
-    desc: Follow me on Pinterest
-    share: true
+  # - name: Pinterest
+  #   icon: pinterest
+  #   username:
+  #   url:
+  #   desc: Follow me on Pinterest
+  #   share: false
 
   - name: SoundCloud
     icon: soundcloud

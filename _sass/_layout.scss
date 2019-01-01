@@ -1,5 +1,7 @@
 // Primary site layout for Centrarium Theme
-
+.post_img{   float: left;
+  border: 1px black;
+  margin: 0px 0px 15px 20px;}
 /*
 *	Variables
 */
@@ -340,6 +342,7 @@ pre code.hljs {
 		}
 		.profile {
 			max-width: 320px;
+			// max-width: 920px;
 			margin: auto;
 			padding-bottom: 0.5em;
  		}
