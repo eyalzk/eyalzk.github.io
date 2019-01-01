@@ -4,3 +4,4 @@ gem 'jekyll-archives'
 gem 'jekyll-sitemap'
 gem 'jekyll-paginate'
 gem "ffi", ">= 1.9.24"
+gem 'jemoji'
