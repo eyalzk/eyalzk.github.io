@@ -10,11 +10,11 @@ exclude:
 
 # Site settings
 title: Eyal Zakkay
-subtitle: "Machine Learning and Deep Learning Projects and Tutorials"
+subtitle: "Deep Learning Projects and Tutorials"
 email: eyal.zakkay@gmail.com
 name: Eyal Zakkay
 description: >
-  Machine Learning and Deep Learning Projects and Tutorials.
+  Deep Learning Projects and Tutorials.
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
