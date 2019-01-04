@@ -53,7 +53,8 @@ layout: default
   {% endif %}
   {% endfor %}
 </ul>
-
+<!-- For now, no pagination -->
+{% if false %}
 <nav class="pagination" role="navigation">
 	<p>
     {% if paginator.previous_page %}
@@ -94,6 +95,8 @@ layout: default
 		{% endif %}
 	</p>
 </nav>
+{% endif %}
+<!--(end) For now, no pagination -->
 
 </div>
 </div>
