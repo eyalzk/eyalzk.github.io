@@ -6,7 +6,7 @@ permalink: /about/
 
 <img src="{{ site.baseurl }}/assets/profile.png" title="Profile Picture" class="profile">
 
-I'm Eyal, an algorithm developer and researcher in the fields of machine and deep learning.  
+I'm Eyal, an algorithm engineer and researcher in the fields of machine and deep learning.  
 I find Deep Learning to be quite fascinating and enjoy working on fun little projects which are concentrated in this site.
 Most of my projects are in the realm of generative models and data manipulation.  
 You can also find here some blog posts and OSS contribution summaries.  
