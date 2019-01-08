@@ -2,12 +2,13 @@
 
   <div class="wrapper">
 
-    <h3 class="footer-heading">{{ site.title }}</h3>
+    <a href="{{ site.baseurl }}/"><h3 class="footer-heading">{{ site.title }}</h3></a>
 
     <div class="site-navigation">
 
       <p><strong>Site Map</strong></p>
       <ul class="pages">
+        <li class="nav-link"><a href="{{ site.baseurl }}">Home</a>
         {% for page in site.pages %}
         {% if page.title and page.main_nav != false %}
           <li class="nav-link"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
