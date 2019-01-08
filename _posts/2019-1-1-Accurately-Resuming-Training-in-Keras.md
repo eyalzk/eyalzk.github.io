@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Accurately Resuming Training in Keras"
+title:  "Keras Tutorial - Accurately Resuming Training"
 date:   2019-01-01 08:43:59
 author: Eyal Zakkay
 categories:
