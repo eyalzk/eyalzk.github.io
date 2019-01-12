@@ -12,3 +12,4 @@ permalink: /oss/
 
 #### keras
   - [PR #11726](https://github.com/keras-team/keras/pull/11726) @ [keras-team/keras](https://github.com/keras-team/keras)
+  - [PR #12030](https://github.com/keras-team/keras/pull/12030) @ [keras-team/keras](https://github.com/keras-team/keras)
